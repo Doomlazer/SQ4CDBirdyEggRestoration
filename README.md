@@ -10,9 +10,13 @@ Copy the 397.hep, 397.scr and 397.v56 files into your SQIV game folder.
 
 <img src="birdy.png"  width="300">
 
-<img src="smell.gif"  width="300">
-Smell the left wall square and then face directly south.
 
-<img src="taste.gif"  width="300">
+Smell the left wall square and then face directly south.
+<img src="smell.gif"  width="300">
+
+
 Taste the right wall square.
+<img src="taste.gif"  width="300">
+
+
 https://github.com/Doomlazer/SQ4CDBirdyEggRestore
