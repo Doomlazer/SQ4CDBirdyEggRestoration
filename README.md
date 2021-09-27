@@ -2,7 +2,7 @@
 
 version 0.3 
 
- Restores both software store easter eggs in the CD version of SQ4 and prevents trigging both at the same time, avioding lock up. Todo: Convert box or birdy to ego script so both are possible at the same time.
+ Restores both software store easter eggs in the CD version of SQ4 and prevents trigging both at the same time, avioding lock up. Todo: Convert birdyScript from room to clerk script, so both are possible at the same time.
 
 INSTALLATION
 
