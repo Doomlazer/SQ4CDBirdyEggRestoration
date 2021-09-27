@@ -1,6 +1,6 @@
 # SQ4CDBirdyEggRestore
 
-version 0.2 
+version 0.2.1 
 
 Fixed wrong view format. Not fully tested - the birdy script triggers without smelling wall right now
 
@@ -8,4 +8,4 @@ Fixed wrong view format. Not fully tested - the birdy script triggers without sm
 
 INSTALLATION
 
-Copy the rm397.src, rm397.view, and rm397.hep files into youre game folder.
+Copy the 397.hep, 397.scr and 397.v56 files into your SQIV game folder.
