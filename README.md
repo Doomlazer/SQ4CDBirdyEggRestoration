@@ -22,5 +22,7 @@ Taste the right wall square.
 
 <img src="taste.gif"  width="300">
 
+(<a href="https://www.benshoof.org/blog/space-quest-iv-easter-eggs">>Gif source</a>)
+
 
 https://github.com/Doomlazer/SQ4CDBirdyEggRestoration
