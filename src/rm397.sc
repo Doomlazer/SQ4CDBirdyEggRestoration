@@ -279,7 +279,9 @@
 					setCycle: Forward
 				)
 			)
-			(5 (HandsOn) (self dispose:))
+			(5 (HandsOn)
+				(self dispose:)
+			)
 		)
 	)
 )
@@ -312,7 +314,9 @@
 				(clerkHead loop: 2 setCycle: RandCycle cycleSpeed: 20)
 				(= seconds 10)
 			)
-			(3 (self dispose:))
+			(3 
+				(self dispose:)
+			)
 		)
 	)
 )
@@ -326,7 +330,10 @@
 				(HandsOff)
 				(tCLERK say: 12 self)
 			)
-			(1 (HandsOn) (self dispose:))
+			(1 
+				(HandsOn)
+				(self dispose:)
+			)
 		)
 	)
 )
@@ -336,7 +343,7 @@
 		view 397
 	)
 	
-	(method (doit) ;;birdy easter egg restore
+	(method (doit) ;birdy easter egg restore
 		(super doit:)
 		(if
 			(and
@@ -344,7 +351,7 @@
 				(== (clerkHead loop?) 2)
 				(== (ego loop?) 2)
 				(== (Random 0 100) 1)
-				oldSortedFeatures
+				oldSortedFeatures ;currently starts true. should smelling wall be required?
 			)
 			(if (not (curRoom script?)) ;This check should fix double easter egg lockup - DL
 				(curRoom setScript: birdy)
@@ -411,8 +418,13 @@
 			(0
 				(ego setMotion: PolyPath 135 162 self)
 			)
-			(1 (ego loop: 5) (= cycles 5))
-			(2 (curRoom newRoom: 398))
+			(1 
+				(ego loop: 5)
+				(= cycles 5)
+			)
+			(2 
+				(curRoom newRoom: 398)
+			)
 		)
 	)
 )
