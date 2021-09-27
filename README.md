@@ -9,3 +9,6 @@ Fixed wrong view format. Not fully tested - the birdy script triggers without sm
 INSTALLATION
 
 Copy the 397.hep, 397.scr and 397.v56 files into your SQIV game folder.
+
+<img src="birdy.png"  width="300">
+https://github.com/Doomlazer/SQ4CDBirdyEggRestore
