@@ -22,6 +22,7 @@
 	paidForHintbook
 	[local5 2]
 	oldSortedFeatures
+	birdyFlip
 	[str 300]
 )
 (instance rm397 of SQRoom
@@ -56,10 +57,10 @@
 		(birdyFeature init:) ;easter egg restore
 		(displayCase init:)
 		(shelf1 init:)
-		(box init:) ;easter egg restore
 		(shelf2 init:)
 		(bin1 init:)
 		(bin2 init:)
+		(box init:) ;easter egg restore
 		(ego x: 160 y: 180 init:)
 		(if (== prevRoomNum 398) (ego posn: 127 163))
 		(if (== prevRoomNum 395)
@@ -279,9 +280,7 @@
 					setCycle: Forward
 				)
 			)
-			(5 (HandsOn)
-				(self dispose:)
-			)
+			(5 (HandsOn) (self dispose:))
 		)
 	)
 )
@@ -314,9 +313,7 @@
 				(clerkHead loop: 2 setCycle: RandCycle cycleSpeed: 20)
 				(= seconds 10)
 			)
-			(3 
-				(self dispose:)
-			)
+			(3 (self dispose:))
 		)
 	)
 )
@@ -330,10 +327,7 @@
 				(HandsOff)
 				(tCLERK say: 12 self)
 			)
-			(1 
-				(HandsOn)
-				(self dispose:)
-			)
+			(1 (HandsOn) (self dispose:))
 		)
 	)
 )
@@ -343,7 +337,7 @@
 		view 397
 	)
 	
-	(method (doit) ;birdy easter egg restore
+	(method (doit) ;;birdy easter egg restore
 		(super doit:)
 		(if
 			(and
@@ -351,7 +345,7 @@
 				(== (clerkHead loop?) 2)
 				(== (ego loop?) 2)
 				(== (Random 0 100) 1)
-				oldSortedFeatures ;currently starts true. should smelling wall be required?
+				birdyFlip
 			)
 			(if (not (curRoom script?)) ;This check should fix double easter egg lockup - DL
 				(curRoom setScript: birdy)
@@ -418,13 +412,8 @@
 			(0
 				(ego setMotion: PolyPath 135 162 self)
 			)
-			(1 
-				(ego loop: 5)
-				(= cycles 5)
-			)
-			(2 
-				(curRoom newRoom: 398)
-			)
+			(1 (ego loop: 5) (= cycles 5))
+			(2 (curRoom newRoom: 398))
 		)
 	)
 )
@@ -539,7 +528,7 @@
 			(V_SMELL
 				(if (not (curRoom script?))
 					(narrator say: 8)
-					(++ oldSortedFeatures)
+					(++ birdyFlip)
 					(self dispose:)
 				)
 			)

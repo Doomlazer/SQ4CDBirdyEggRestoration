@@ -1,10 +1,8 @@
 # SQ4CDBirdyEggRestore
 
-version 0.2.1 
+version 0.3 
 
-Fixed wrong view format. Not fully tested - the birdy script triggers without smelling wall right now
-
- Restores both software store easter eggs in the CD version of SQ4 and prevents lock up when triggering both at the same time.
+ Restores both software store easter eggs in the CD version of SQ4 and prevents trigging both at the same time, avioding lock up. Todo: Convert box or birdy to ego script so both are possible at the same time.
 
 INSTALLATION
 
