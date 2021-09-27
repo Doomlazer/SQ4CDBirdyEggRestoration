@@ -56,10 +56,10 @@
 		(birdyFeature init:) ;easter egg restore
 		(displayCase init:)
 		(shelf1 init:)
+		(box init:) ;easter egg restore
 		(shelf2 init:)
 		(bin1 init:)
 		(bin2 init:)
-		(box init:) ;easter egg restore
 		(ego x: 160 y: 180 init:)
 		(if (== prevRoomNum 398) (ego posn: 127 163))
 		(if (== prevRoomNum 395)
