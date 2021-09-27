@@ -1,4 +1,4 @@
-# SQ4CDBirdyEggRestore
+# SQ4CDBirdyEggRestoration
 
 version 0.3 
 
