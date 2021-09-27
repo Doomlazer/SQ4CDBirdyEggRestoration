@@ -1,4 +1,5 @@
 # SQ4CDBirdyEggRestore
+
 version 0.2 
 
 Fixed wrong view format. Not fully tested - the birdy script triggers without smelling wall right now
