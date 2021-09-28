@@ -20,7 +20,7 @@ Smell the left wall square and then face directly south.
 
 Taste the right wall square.
 
-<img src="taste.gif"  width="600" alt="a gif demonstrates licking the wall to start the second egg.">
+<a href="https://www.benshoof.org/blog/space-quest-iv-easter-eggs"><img src="taste.gif"  width="600" alt="a gif demonstrates licking the wall to start the second egg."></a>
 
 (<a href="https://www.benshoof.org/blog/space-quest-iv-easter-eggs">Gif source</a>)
 
