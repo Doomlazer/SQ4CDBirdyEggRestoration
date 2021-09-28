@@ -15,7 +15,7 @@ Copy the 397.hep, 397.scr and 397.v56 files into your SQIV game folder.
 
 Smell the left wall square and then face directly south.
 
-<img src="smell.gif"  width="600" alt="A gif showing how smelling the wall activates an easter egg.">
+<a href="https://www.benshoof.org/blog/space-quest-iv-easter-eggs"><img src="smell.gif"  width="600" alt="A gif showing how smelling the wall activates an easter egg."></a>
 
 
 Taste the right wall square.
