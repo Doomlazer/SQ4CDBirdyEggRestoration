@@ -10,17 +10,17 @@ INSTALLATION
 
 Copy the 397.hep, 397.scr and 397.v56 files into your SQIV game folder.
 
-<img src="birdy.png"  width="500">
+<img src="birdy.png"  width="600">
 
 
 Smell the left wall square and then face directly south.
 
-<img src="smell.gif"  width="500">
+<img src="smell.gif"  width="600">
 
 
 Taste the right wall square.
 
-<img src="taste.gif"  width="500">
+<img src="taste.gif"  width="600">
 
 (<a href="https://www.benshoof.org/blog/space-quest-iv-easter-eggs">Gif source</a>)
 
