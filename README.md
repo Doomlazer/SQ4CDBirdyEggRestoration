@@ -1,12 +1,10 @@
-# SQ4CDBirdyEggRestoration
+# SQ4CDBirdyEggRestore
 
-version 0.3 
+## version 0.4 
 
- Restores both software store easter eggs in the CD version of SQ4 and prevents trigging both at the same time, avioding lock up. Todo: Convert birdyScript from room to clerk script, so both are possible at the same time.
- 
- Developed using <a href="http://scicompanion.com/">SCI Companion</a>
+ Restores both software store easter eggs in the CD version of SQ4. Also fixes the Floppy version lockup when both eggs are exicuted at the same time. 
 
-INSTALLATION
+## INSTALLATION
 
 Copy the 397.hep, 397.scr and 397.v56 files into your SQIV game folder.
 
@@ -23,6 +21,7 @@ Taste the right wall square.
 <img src="taste.gif"  width="600" alt="a gif demonstrates licking the wall to start the second egg.">
 
 (<a href="https://www.benshoof.org/blog/space-quest-iv-easter-eggs" target="_blank">Gif source</a>)
+
 
 
 https://github.com/Doomlazer/SQ4CDBirdyEggRestoration
