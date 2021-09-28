@@ -2,7 +2,7 @@
 
 ## version 0.4 
 
- Restores both software store easter eggs in the CD version of SQ4. Also fixes the Floppy version lockup when both eggs are exicuted at the same time. 
+ Restores both software store easter eggs in the CD version of SQ4. Also fixes the Floppy version lockup when both eggs are executed at the same time. 
 
 ## INSTALLATION
 
