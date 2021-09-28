@@ -347,7 +347,7 @@
 				(== (Random 0 100) 1)
 				birdyFlip
 			)
-			(if (not (curRoom script?)) ;This check should fix double easter egg lockup - DL
+			(if (not (curRoom script?)) 
 				(curRoom setScript: birdy)
 			)
 		)
@@ -576,8 +576,8 @@
 	(method (doVerb theVerb)
 		(switch theVerb
 			(V_TASTE
-				(if (not (curRoom script?)) 
-					(curRoom setScript: talk2)
+				(if (not (ego script?)) ;set script on ego, not room - DL
+					(ego setScript: talk2)
 				)
 			)
 		)
