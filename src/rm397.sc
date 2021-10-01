@@ -22,7 +22,7 @@
 	paidForHintbook
 	[local5 2]
 	oldSortedFeatures
-	birdyFlip
+	smelledWall
 	[str 300]
 )
 (instance rm397 of SQRoom
@@ -285,7 +285,7 @@
 	)
 )
 
-(instance birdy of Script ;;easter egg restore
+(instance birdy of Script
 	(properties)
 	
 	(method (doit)
@@ -337,7 +337,7 @@
 		view 397
 	)
 	
-	(method (doit) ;;birdy easter egg restore
+	(method (doit)
 		(super doit:)
 		(if
 			(and
@@ -345,7 +345,7 @@
 				(== (clerkHead loop?) 2)
 				(== (ego loop?) 2)
 				(== (Random 0 100) 1)
-				birdyFlip
+				smelledWall
 			)
 			(if (not (curRoom script?)) 
 				(curRoom setScript: birdy)
@@ -528,7 +528,7 @@
 			(V_SMELL
 				(if (not (curRoom script?))
 					(narrator say: 8)
-					(++ birdyFlip)
+					(++ smelledWall)
 					(self dispose:)
 				)
 			)
@@ -562,7 +562,7 @@
 	)
 )
 
-(instance box of Sq4Feature ;easter egg
+(instance box of Sq4Feature
 	(properties
 		x 307
 		y 35
