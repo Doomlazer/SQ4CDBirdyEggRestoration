@@ -576,7 +576,7 @@
 	(method (doVerb theVerb)
 		(switch theVerb
 			(V_TASTE
-				(if (not (ego script?)) ;set script on ego, not room - DL
+				(if (not (ego script?)) ;set script on ego, not room to avoid lockup- DL
 					(ego setScript: talk2)
 				)
 			)
