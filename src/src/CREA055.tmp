@@ -1,0 +1,137 @@
+;;; Sierra Script 1.0 - (do not remove this comment)
+(script# 397)
+(include sci.sh)
+(use Main)
+(use SQRoom)
+(use Sq4Narrator)
+(use Sq4Feature)
+(use RandCycle)
+(use PolyPath)
+(use Polygon)
+(use Cycle)
+(use Obj)
+
+(public
+	rm397 0
+)
+
+(local
+	local0
+	local1
+	[local2 2]
+	local4
+	[local5 2]
+	local7
+	smelledWall
+	[local8 300]
+)
+(instance rm397 of SQRoom
+	(properties
+		picture 397
+		style $000a
+		south 395
+		lookStr 1
+	)
+	
+	(method (init)
+		(= local7 global34)
+		(= global34 0)
+		(global2
+			addObstacle:
+				((Polygon new:)
+					type: 2
+					init:
+						0
+						189
+						0
+						0
+						319
+						0
+						319
+						189
+						306
+						189
+						298
+						180
+						197
+						176
+						181
+						145
+						297
+						145
+						269
+						113
+						254
+						113
+						223
+						117
+						93
+						117
+						66
+						112
+						41
+						112
+						31
+						144
+						133
+						144
+						114
+						178
+						17
+						178
+						7
+						189
+					yourself:
+				)
+		)
+		(gLongSong number: 0 stop:)
+		(gLongSong2 vol: 127 changeState:)
+		(proc0_3)
+		(clerkHead posn: 161 70 setPri: 8 init:)
+		(clerk posn: 160 85 init:)
+		(super init:)
+		(self setRegions: 700)
+		(displayCase init:)
+		(shelf1 init:)
+		(shelf2 init:)
+		(bin1 init:)
+		(bin2 init:)
+		(gEgo x: 160 y: 180 init:)
+		(if (== global12 398) (gEgo posn: 127 163))
+		(if (== global12 395)
+			(global2 setScript: walkIn)
+		else
+			(global2 setScript: clerkScript)
+		)
+	)
+	
+	(method (doit)
+		(super doit:)
+		(if
+			(and
+				(& (gEgo onControl: 1) $4000)
+				(!= global160 0)
+				(!= local0 1)
+				(not (proc0_6 31))
+			)
+			(= local0 1)
+			(global2 setScript: yell)
+		)
+		(if
+			(and
+				(& (gEgo onControl: 1) $2000)
+				(!= global160 0)
+				(!= local1 1)
+				(not (proc0_6 31))
+			)
+			(= local1 1)
+			(global2 setScript: yell)
+		)
+		(if
+			(and
+				(& (gEgo onControl: 1) $0200)
+				(not local4)
+				(!= global160 0)
+				(not (proc0_6 31))
+			)
+			(= local4 1)
