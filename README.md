@@ -1,6 +1,8 @@
 # SQ4CDBirdyEggRestore
 
-## version 0.4 
+## version 0.4.1 
+
+Versions 3 and 4.0 had crashes, I've rebuilt everything from scratch and it's working except the voice saying "Ah! Yeaa!", but the egg still works. Download the new patches if you get errors in the software store.
 
  Restores both software store easter eggs in the CD version of SQ4. Also fixes the Floppy version lockup when both eggs are executed at the same time. 
 
