@@ -1,12 +1,10 @@
 # SQ4CDBirdyEggRestore
 
-## version 0.5
+## version 0.5.1
 
-Versions 0.3 and 0.4 had crashes :( 
+Versions 0.3 and 0.4 had crashes - Please update to 0.5.1
 
-I've rebuilt everything from scratch and it's working except the voice saying "Ah! Yeaa!", I will work on fixing that this week. Download the new 0.5 patches if you get errors in the software store. 
-
-I've confirmed both easter eggs are now fulling working in SCUMMVM 2.2.0 (works with text, voice, or both) - will test dosbox again later today
+I've confirmed both easter eggs are now fulling working in SCUMMVM 2.2.0 (works with text, voice, or both) and DOSBox 0.74-3 (text or speech). This 'should' be the final version of the patches, but please report any issues!
 
  Restores both software store easter eggs in the CD version of SQ4. Also fixes the Floppy version lockup when both eggs are executed at the same time. 
 
