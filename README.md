@@ -4,7 +4,9 @@
 
 Versions 0.3 and 0.4 had crashes :( 
 
-I've rebuilt everything from scratch and it's working except the voice saying "Ah! Yeaa!", I will work on fixing that this week. Download the new 0.5 patches if you get errors in the software store.
+I've rebuilt everything from scratch and it's working except the voice saying "Ah! Yeaa!", I will work on fixing that this week. Download the new 0.5 patches if you get errors in the software store. 
+
+I've confirmed both easter eggs are now fulling working in SCUMMVM 2.2.0 (works with text, voice, or both) - will test dosbox again later today
 
  Restores both software store easter eggs in the CD version of SQ4. Also fixes the Floppy version lockup when both eggs are executed at the same time. 
 
