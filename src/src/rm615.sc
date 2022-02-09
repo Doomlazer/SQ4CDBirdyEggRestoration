@@ -428,7 +428,14 @@
 				(if (!= (++ local3) 6)
 					(gSq4GlobalNarrator say: 8)
 				else
-					(gSq4GlobalNarrator say: 8)
+					(eggNar say: 30)
+					(eggNar say: 31)
+;;;					(gSq4GlobalNarrator
+;;;						modeless: 0
+;;;						;returnVal: 0
+;;;						nMsgType: 1
+;;;						say: 8 self 2 64 1 160 67 ;318 ;25 ;global135 26 gColor 27 1 30 68
+;;;					)
 				)
 			)
 			(else 
@@ -755,4 +762,38 @@
 		eyeOffsetX 28
 		eyeOffsetY 9
 	)
+)
+
+(instance eggNar of Sq4Narrator
+	(properties
+		noun 99
+		modNum 615
+		;modeless 1
+		nMsgType 1
+	)
+	
+;;;	(method (dispose)
+;;;		(Display 398 0 108 local6)
+;;;		(super dispose: &rest)
+;;;	)
+;;;	
+;;;	(method (display theText)
+;;;		(= local6
+;;;			(Display
+;;;				theText
+;;;				dsWIDTH
+;;;				talkWidth
+;;;				dsCOORD
+;;;				x
+;;;				y
+;;;				dsALIGN
+;;;				0
+;;;				dsFONT
+;;;				68
+;;;				dsCOLOR
+;;;				global132
+;;;				dsSAVEPIXELS
+;;;			)
+;;;		)
+;;;	)
 )

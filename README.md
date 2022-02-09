@@ -12,6 +12,8 @@ I've confirmed both easter eggs are now fulling working in SCUMMVM 2.2.0 (works 
 
 Copy the 397.hep, 397.scr and 397.v56 files into your SQIV game folder.
 
+In version 6, I've added the Ulence Flats' bar easter egg. Copy 615.hep, 615.src and 615.msg to install egg as well.
+
 <img src="birdy.png"  width="600" alt="SQIV Birdy Egg Restoration cover art.">
 
 
@@ -27,5 +29,12 @@ Taste the right wall square.
 (<a href="https://www.benshoof.org/blog/space-quest-iv-easter-eggs" target="_blank">Gif source</a>)
 
 
+Ulence Flats' Bar Easter Egg is triggered by looking at the alien writing in the doorway Six (6) times. 
+
+<img src="TriggerBarEgg.png"  width="600" alt="How to trigger the Bar Easter Egg by looking at the writing six times.">
+
+It displays a list of quality assurance testers (Since Gary Owens did not record audio for these messages they appear as text only). The formatting isn't 100% accurate becuase of changes in the code between SQ4 Floppy and SQ4CD versions, but it's close enough for now I guess. 
+
+<img src="615BarEgg.png"  width="600" alt="The resulting text from the easter egg.">
 
 https://github.com/Doomlazer/SQ4CDBirdyEggRestoration
