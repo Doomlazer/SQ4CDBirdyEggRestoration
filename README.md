@@ -35,10 +35,10 @@ The Ulence Flats Bar Easter Egg is triggered by looking at the alien writing in 
 
 It displays a list of Quality Assurance testers (Since Gary Owens did not record audio for these messages they appear as text only). The formatting isn't 100% accurate becuase of changes in the code between SQ4 Floppy and SQ4CD versions, but it's close enough for now I guess. 
 
-<img src="scr/615BarEgg.png"  width="600" alt="The resulting text from the easter egg.">
+<img src="src/615BarEgg.png"  width="600" alt="The resulting text from the easter egg.">
 
 In the "Laserbeam hallway", the keypad numbers don't display 000 correctly until a number is entered. After looking at the code in room 541, there isn't really a way to correct this programatically. The easy way to fix the issue is to just draw the dark grey "000" into view 502.
 
-<img src="scr/KeyPad.png"  width="600" alt="The resulting text from the easter egg.">
+<img src="src/KeyPad.png"  width="600" alt="Shows changes to view 502, the laser hallway keypad.">
 
 https://github.com/Doomlazer/SQ4CDBirdyEggRestoration
