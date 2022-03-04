@@ -1,6 +1,6 @@
 # SQ4CDBirdyEggRestore
 
-<img src="src/birdy.png"  width="600" alt="SQIV Birdy Egg Restoration cover art.">
+<img src="src/birdy.png"  width="400" alt="SQIV Birdy Egg Restoration cover art.">
 
 Restores both software store easter eggs in the CD version of SQ4. Also fixes the Floppy version lockup when both eggs are executed at the same time. 
 
