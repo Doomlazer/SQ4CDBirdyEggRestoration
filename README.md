@@ -1,5 +1,7 @@
 # SQ4CDBirdyEggRestore
 
+<img src="src/birdy.png"  width="600" alt="SQIV Birdy Egg Restoration cover art.">
+
 Restores both software store easter eggs in the CD version of SQ4. Also fixes the Floppy version lockup when both eggs are executed at the same time. 
 
 Version 0.6: Added Ulence Flats Easter Egg.
@@ -17,9 +19,6 @@ Ulence Flats' bar patches: 615.hep, 615.src and 615.msg.
 KeyPad patch: 502.v56
 
 ## Changes
-
-<img src="src/birdy.png"  width="600" alt="SQIV Birdy Egg Restoration cover art.">
-
 
 Smell the left wall square and then face directly south.
 
