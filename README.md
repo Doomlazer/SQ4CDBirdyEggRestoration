@@ -16,7 +16,7 @@ Ulence Flats' bar patches: 615.hep, 615.src and 615.msg.
 
 KeyPad patch: 502.v56
 
-### Changes
+## Changes
 
 <img src="src/birdy.png"  width="600" alt="SQIV Birdy Egg Restoration cover art.">
 
