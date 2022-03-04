@@ -10,9 +10,14 @@ Added 502.v56 in version 0.7 to fix KeyPad graphical issue.
 
 ## INSTALLATION
 
-Copy the 397.hep, 397.scr and 397.v56 files into your SQIV game folder.
+Copy the desired patches into the SQ4CD game folder.
 
-In version 0.6, I've added the Ulence Flats' bar easter egg. Copy 615.hep, 615.src and 615.msg to install that egg as well.
+Software Store patches: 397.hep, 397.scr and 397.v56.
+
+Ulence Flats' bar patches: 615.hep, 615.src and 615.msg.
+
+KeyPad patch: 502.v56
+
 
 <img src="src/birdy.png"  width="600" alt="SQIV Birdy Egg Restoration cover art.">
 
