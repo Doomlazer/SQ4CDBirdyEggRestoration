@@ -1,4 +1,4 @@
-# SQ4CDBirdyEggRestore
+# SQ4CD Birdy Easter Egg Restoration
 
 <img src="src/birdy.png"  width="400" alt="SQIV Birdy Egg Restoration cover art.">
 
